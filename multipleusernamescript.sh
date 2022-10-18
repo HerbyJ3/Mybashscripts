@@ -9,7 +9,6 @@ else
     for user in $usrname
     do
             useradd -m $user
-            echo  'Username(s) has been added to the system. Use the command "tail /etc/passwd" to confirm'
-            break
     done
+    echo  'Username(s) has been added to the system. Use the command "tail /etc/passwd" to confirm'
 fi
